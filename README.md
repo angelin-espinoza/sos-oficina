@@ -43,6 +43,66 @@ No es un cuestionario de memoria. Cada caso presenta un aviso, contexto operativ
   <sub>Simulación pública y responsive: 500 casos disponibles, 50 incidencias aleatorias y 30 minutos por guardia.</sub>
 </p>
 
+## Recorrido visual
+
+Las siguientes capturas muestran el flujo real de una guardia: acceso al centro de respuesta, consulta del asistente NEXA, resolución de incidencias y generación del informe final.
+
+### 1. Centro de respuesta IT
+
+![Pantalla de inicio del centro de respuesta IT](documentation/screenshots/01-centro-respuesta.png)
+
+La pantalla inicial presenta el alcance del reto antes de comenzar: un banco de 500 casos, 50 incidencias por guardia y 30 minutos de intervención. El panel de operaciones resume el estado de red, servicios y seguridad.
+
+### 2. NEXA y test orientativo de red
+
+![Panel de NEXA con acceso al test de red](documentation/screenshots/02-nexa-test-red.png)
+
+NEXA funciona como apoyo contextual durante la simulación. Desde este panel se pueden solicitar pistas, consultar conceptos de SMR y ejecutar una comprobación orientativa de conectividad sin abandonar la guardia.
+
+### 3. Consulta técnica sobre Wi-Fi
+
+<p align="center">
+  <img src="documentation/screenshots/03-nexa-diagnostico-wifi.png" alt="Respuesta de NEXA para diagnosticar Wi-Fi" width="430" />
+</p>
+
+El asistente interpreta preguntas escritas con lenguaje natural y propone un orden de diagnóstico. En este ejemplo revisa señal, interferencias, canal, banda, autenticación, controlador y asignación DHCP.
+
+### 4. Contención de una ejecución sospechosa
+
+![Incidencia de seguridad con detección EDR](documentation/screenshots/04-incidencia-seguridad-edr.png)
+
+El caso combina el aviso de la persona usuaria con evidencias de terminal. La respuesta correcta prioriza aislar el equipo, avisar y preservar los indicadores antes de continuar con el análisis.
+
+### 5. Diagnóstico de VLAN en un enlace troncal
+
+![Incidencia de conectividad entre VLAN](documentation/screenshots/05-incidencia-vlan.png)
+
+La evidencia muestra las VLAN permitidas en el trunk y la VLAN afectada. El objetivo es relacionar el síntoma con la configuración del enlace y comprobar ambos extremos antes de aplicar cambios.
+
+### 6. Bucle de capa 2 y revisión de STP
+
+![Incidencia de saturación de red y STP](documentation/screenshots/06-incidencia-stp.png)
+
+Una tasa de broadcast anómala y múltiples cambios de topología apuntan a un posible bucle. La actuación propuesta contiene el enlace sospechoso y revisa STP antes de reconectarlo.
+
+### 7. Fallos de memoria RAM
+
+![Incidencia de hardware relacionada con memoria RAM](documentation/screenshots/07-incidencia-memoria-ram.png)
+
+Los bloqueos variables y el error `MEMORY_MANAGEMENT` orientan el diagnóstico hacia memoria inestable. La simulación recomienda probar módulos y ranuras de forma controlada para aislar el componente defectuoso.
+
+### 8. Reparación de Windows Update
+
+![Incidencia de Windows Update y reparación DISM](documentation/screenshots/08-incidencia-windows-update.png)
+
+El código `0x800f081f` y el mensaje de DISM indican componentes ausentes o dañados. La secuencia técnica revisa registros, repara la imagen, ejecuta `sfc /scannow` y reintenta desde una fuente válida.
+
+### 9. Informe final de guardia
+
+![Informe final con puntuación y valoración de NEXA](documentation/screenshots/09-informe-final.png)
+
+Al completar la guardia se muestran puntuación, tiempo, precisión y valoración profesional. NEXA mantiene el contexto del resultado para explicar el rendimiento y las competencias demostradas.
+
 ## Capacidades demostradas
 
 - diagnóstico estructurado desde el síntoma hasta la causa probable;
