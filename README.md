@@ -31,6 +31,13 @@ SOS Oficina es una simulación de respuesta a incidencias creada por **Angelin E
 
 No es un cuestionario de memoria. Cada caso presenta un aviso, contexto operativo, salida de terminal, posibles actuaciones y una explicación técnica. La puntuación valora la precisión y penaliza las decisiones que aumentan el riesgo.
 
+<p align="center">
+  <strong>Acceso directo al simulador</strong><br />
+  <a href="https://angeline-jose-molina-espinoza.github.io/sos-oficina/">
+    https://angeline-jose-molina-espinoza.github.io/sos-oficina/
+  </a>
+</p>
+
 ## Vista general
 
 <p align="center">
