@@ -9,11 +9,11 @@
   <img src="https://img.shields.io/badge/TypeScript-Estricto-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Casos-500-2BE4BD?style=for-the-badge" alt="500 casos técnicos" />
   <img src="https://img.shields.io/badge/Guardia-50%20incidencias-FF4D61?style=for-the-badge" alt="50 incidencias por guardia" />
-  <img src="https://komarev.com/ghpvc/?username=angeline-jose-molina-espinoza&label=VISUALIZACIONES&color=7957D5&style=for-the-badge" alt="Visualizaciones del perfil" />
+  <img src="https://komarev.com/ghpvc/?username=angelin-espinoza&label=VISUALIZACIONES&color=7957D5&style=for-the-badge" alt="Visualizaciones del perfil" />
 </p>
 
 <p align="center">
-  <a href="https://angeline-jose-molina-espinoza.github.io/sos-oficina/">
+  <a href="https://angelin-espinoza.github.io/sos-oficina/">
     <img src="https://img.shields.io/badge/ABRIR%20SIMULADOR-JUGAR-2BE4BD?style=for-the-badge" alt="Abrir SOS Oficina" />
   </a>
   <a href="#arquitectura">
@@ -33,15 +33,15 @@ No es un cuestionario de memoria. Cada caso presenta un aviso, contexto operativ
 
 <p align="center">
   <strong>Acceso directo al simulador</strong><br />
-  <a href="https://angeline-jose-molina-espinoza.github.io/sos-oficina/">
-    https://angeline-jose-molina-espinoza.github.io/sos-oficina/
+  <a href="https://angelin-espinoza.github.io/sos-oficina/">
+    https://angelin-espinoza.github.io/sos-oficina/
   </a>
 </p>
 
 ## Vista general
 
 <p align="center">
-  <a href="https://angeline-jose-molina-espinoza.github.io/sos-oficina/">
+  <a href="https://angelin-espinoza.github.io/sos-oficina/">
     <img src="og.png" alt="Vista principal de SOS Oficina" width="900" />
   </a>
 </p>
