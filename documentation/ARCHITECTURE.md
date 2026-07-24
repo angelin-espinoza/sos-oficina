@@ -22,7 +22,7 @@ El estado de React mantiene la misión actual, tiempo restante, intentos, respue
 
 Cada incidencia contiene:
 
-- identificador, categoría y severidad;
+- Identificador, categoría y severidad;
 - persona, dispositivo y descripción;
 - evidencia de terminal;
 - pista;
@@ -40,7 +40,7 @@ El test de red solicita tres veces la propia página sin utilizar caché, calcul
 
 `source/app/globals.css` contiene el sistema visual, los puntos de ruptura responsive y el movimiento:
 
-- partículas de red;
+- Partículas de red;
 - barrido global;
 - paquetes en tránsito;
 - estados pulsantes;
@@ -71,7 +71,7 @@ La versión de GitHub Pages se genera con Vite y usa `/sos-oficina/` como ruta b
 
 ## Seguridad y privacidad
 
-- no se recopilan credenciales;
+- No se recopilan credenciales;
 - las preguntas escritas en NEXA permanecen en el navegador;
 - las direcciones, usuarios y equipos mostrados son ficticios;
 - el test de red solo consulta la propia página;

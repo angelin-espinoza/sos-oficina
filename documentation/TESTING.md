@@ -47,7 +47,7 @@ También se prueban formulaciones alternativas como `explícame IP`, `dime qué 
 
 Se comprueban los siguientes escenarios:
 
-- escritorio amplio;
+- Escritorio amplio;
 - portátil;
 - tableta vertical y horizontal;
 - teléfono móvil;
@@ -58,7 +58,7 @@ Los controles deben permanecer visibles, el texto no debe solaparse y la termina
 
 ## Accesibilidad básica
 
-- botones con nombres comprensibles;
+- Botones con nombres comprensibles;
 - formulario de NEXA asociado a una etiqueta;
 - respuesta del asistente anunciada mediante `aria-live`;
 - contraste suficiente en estados principales;
