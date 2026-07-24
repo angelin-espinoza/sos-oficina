@@ -59,13 +59,13 @@ La pantalla inicial presenta el alcance del reto antes de comenzar: un banco de 
 
 NEXA funciona como apoyo contextual durante la simulación. Desde este panel se pueden solicitar pistas, consultar conceptos de SMR y ejecutar una comprobación orientativa de conectividad sin abandonar la guardia.
 
-### 3. Consulta técnica sobre Wi-Fi
+### 3. Preguntas técnicas a NEXA
 
 <p align="center">
   <img src="documentation/screenshots/03-nexa-diagnostico-wifi.png" alt="Respuesta de NEXA para diagnosticar Wi-Fi" width="430" />
 </p>
 
-El asistente interpreta preguntas escritas con lenguaje natural y propone un orden de diagnóstico. En este ejemplo revisa señal, interferencias, canal, banda, autenticación, controlador y asignación DHCP.
+NEXA 2.0 responde consultas relacionadas con Sistemas Microinformáticos y Redes, soporte IT y las incidencias del simulador. Por ejemplo, ante la pregunta **«¿Cómo arreglo el Wi-Fi?»**, propone un diagnóstico ordenado que revisa señal, interferencias, canal, banda, autenticación, controlador y asignación DHCP. Su ámbito técnico se muestra en el propio panel para distinguirla de una asistente de propósito general.
 
 ### 4. Contención de una ejecución sospechosa
 
@@ -105,7 +105,7 @@ Al completar la guardia se muestran puntuación, tiempo, precisión y valoració
 
 ## Capacidades demostradas
 
-- diagnóstico estructurado desde el síntoma hasta la causa probable;
+- Diagnóstico estructurado desde el síntoma hasta la causa probable;
 - interpretación de `ipconfig`, `ping`, `nslookup`, registros y estados de servicio;
 - resolución de problemas DHCP, APIPA, DNS, puerta de enlace, Wi-Fi y conectividad;
 - soporte Windows y Linux, hardware, almacenamiento y virtualización;
@@ -212,7 +212,7 @@ npm run pages:build
 
 ## Comprobaciones principales
 
-- inicio de una guardia con 50 incidencias;
+- Inicio de una guardia con 50 incidencias;
 - selección aleatoria desde el banco de 500 casos;
 - puntuación, penalizaciones, avance y finalización;
 - temporizador de 30 minutos;
