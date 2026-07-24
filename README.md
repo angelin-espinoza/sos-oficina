@@ -116,7 +116,7 @@ Al completar la guardia se muestran puntuación, tiempo, precisión y valoració
 
 ## NEXA, asistente técnico contextual
 
-NEXA acompaña la simulación sin resolver automáticamente las incidencias. Su base de conocimiento incluye conceptos y procedimientos de SMR:
+NEXA acompaña la simulación sin resolver automáticamente las incidencias. Es una asistente especializada: responde preguntas relacionadas con **Sistemas Microinformáticos y Redes, soporte IT y el propio proyecto SOS Oficina**. No pretende ser una asistente de propósito general.
 
 - IP, IPv4, máscara de subred, puerta de enlace, DHCP, DNS y APIPA;
 - configuración de IP en Windows y Linux;
@@ -125,6 +125,8 @@ NEXA acompaña la simulación sin resolver automáticamente las incidencias. Su 
 - errores comunes, causas probables y acciones de verificación;
 - Windows, Linux, redes, seguridad, copias, permisos y virtualización;
 - explicación del proyecto, sus objetivos y su forma de uso.
+
+Si recibe una consulta ajena a ese ámbito —por ejemplo, una pregunta de astronomía como «¿qué es el Sol?»— indica claramente su especialización y pide reformular la pregunta, en lugar de inventar una respuesta o aparentar un fallo.
 
 Las preguntas se procesan en el navegador. El test de red realiza una comprobación orientativa contra la propia página y muestra latencia aproximada y, cuando el navegador la facilita, velocidad estimada.
 

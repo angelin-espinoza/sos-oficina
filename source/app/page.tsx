@@ -577,7 +577,7 @@ export default function Home() {
   const [assistantMessages, setAssistantMessages] = useState<AssistantMessage[]>([
     {
       role: "nexa",
-      text: "Hola, soy NEXA. Puedo orientarte con el diagnóstico sin resolver el reto por ti.",
+      text: "Hola, soy NEXA. Respondo preguntas relacionadas con Sistemas Microinformáticos, redes, soporte IT y las incidencias de esta simulación.",
     },
   ]);
 
@@ -640,13 +640,11 @@ export default function Home() {
 
     const lower = normalizeQuestion(cleanQuestion);
     const technicalAnswer = getTechnicalAnswer(cleanQuestion);
+    const scopeAnswer =
+      "Mi ámbito es Sistemas Microinformáticos y Redes: conectividad, Windows, Linux, hardware, seguridad, soporte IT y el funcionamiento de SOS Oficina. Si me preguntas por un tema ajeno, como astronomía, no inventaré una respuesta; reformula tu consulta dentro de este ámbito técnico.";
     let answer =
       technicalAnswer ??
-      (screen === "intro"
-        ? "Puedo responder sobre redes, Windows, Linux, hardware, seguridad, copias de seguridad, virtualización y diagnóstico. También puedo explicar quién creó este proyecto y cómo está desarrollado. Prueba una pregunta técnica concreta."
-        : screen === "result"
-          ? "Tu resultado demuestra criterio técnico, gestión del riesgo y capacidad para explicar decisiones: competencias muy valiosas en soporte IT."
-          : `Observa esta señal: ${mission.hint} Relaciónala con el síntoma antes de elegir una acción.`);
+      scopeAnswer;
 
     if (!technicalAnswer && lower.includes("comando")) {
       answer =
@@ -1025,7 +1023,7 @@ export default function Home() {
               <div className="nexa-avatar">N</div>
               <div>
                 <strong>NEXA 2.0</strong>
-                <small><i /> ASISTENTE TÉCNICO · EN LÍNEA</small>
+                <small><i /> ASISTENTE SMR Y SOPORTE IT · EN LÍNEA</small>
               </div>
               <button onClick={() => setAssistantOpen(false)} aria-label="Cerrar asistente">×</button>
             </div>
@@ -1057,7 +1055,7 @@ export default function Home() {
                 askNexa(nexaQuestion);
               }}
             >
-              <label htmlFor="nexa-question">ESCRIBE TU PREGUNTA</label>
+              <label htmlFor="nexa-question">PREGUNTA SOBRE SMR, REDES O SOPORTE IT</label>
               <div>
                 <input
                   id="nexa-question"
@@ -1072,7 +1070,7 @@ export default function Home() {
               </div>
             </form>
             <small className="nexa-privacy">
-              TUS PREGUNTAS NO SE ENVÍAN · TEST ORIENTATIVO
+              ÁMBITO TÉCNICO LIMITADO · TUS PREGUNTAS NO SE ENVÍAN
             </small>
           </div>
         )}
